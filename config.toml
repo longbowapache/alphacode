@@ -1,0 +1,53 @@
+baseURL = "http://alphacode.cn"
+languageCode = "zh-cn"
+title = "AlphaCode"
+theme = "coder"
+
+paginate = 20
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
+
+[params] # theme parameters
+    author = "Spirit Walker" # Author's name.
+    info = "且随疾风前行" # Author's job title or info.
+    description = "Spirit Walker's personal website" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+
+    footercontent = "御剑于心·且听风吟" # Add footer content
+    fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
+    fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    snsShare = true # new add
+
+    thumbnail = "images/tn.png" # default sns thumbnail
+
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+# Menu links
+[[menu.main]]
+    name = "文章"
+    weight = 1
+    url  = "posts"
+[[menu.main]]
+    name = "关于我"
+    weight = 2
+    url = "about"
+

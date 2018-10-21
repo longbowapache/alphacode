@@ -1,0 +1,7 @@
+[submodule "themes/coder"]
+	path = themes/coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "public"]
+	path = public
+	url = https://github.com/longbowapache/longbowapache.github.io.git
+	branch = master
