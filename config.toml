@@ -50,8 +50,8 @@ pygmentsUseClasses = true # new add
     name = "标签"
     weight = 1
     url  = "tags"
-#[[menu.main]]
-#    name = "关于我"
-#    weight = 2
-#    url = "about"
+[[menu.main]]
+    name = "关于"
+    weight = 2
+    url = "about"
 
