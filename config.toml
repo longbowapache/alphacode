@@ -17,7 +17,7 @@ pygmentsUseClasses = true # new add
     keywords = "blog,developer,personal" # Site keywords.
     avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-    footercontent = "御剑于心·且听风吟" # Add footer content
+    footercontent = "御剑于心,且听风吟" # Add footer content
     fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
     fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
 
@@ -46,6 +46,10 @@ pygmentsUseClasses = true # new add
     name = "文章"
     weight = 1
     url  = "posts"
+[[menu.main]]
+    name = "标签"
+    weight = 1
+    url  = "tags"
 [[menu.main]]
     name = "关于我"
     weight = 2
